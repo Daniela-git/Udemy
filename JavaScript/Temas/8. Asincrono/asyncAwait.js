@@ -21,6 +21,7 @@ obtenerClientes()
 	.then((res) => console.log(res))
 	.catch((error) => console.log(error));
 
+	///-------------------
 async function leerTodos() {
 	//esperar respuesta
 	const respuesta = await fetch("https://jsonplaceholder.typicode.com/todos");
